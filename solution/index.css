@@ -1,0 +1,114 @@
+body {
+  background-color: #2962FF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 1%;
+  background-color: white;
+  padding: 1.5%;
+  width: 50%;
+}
+
+.container h1{
+  text-align: center;
+}
+.container p{
+  text-align: center;
+}
+
+.events {
+  text-align: center;
+  align-content: center;
+  background-color:#2962FF;
+  padding: 2%;
+}
+
+.events h2 {
+  color: white;
+}
+.events-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-card {
+  width: 18rem;
+  height: 22rem;
+  background-color: white;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 1%;
+  padding: 1%;
+  -webkit-box-shadow: 3px 7px 23px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 7px 23px -8px rgba(0,0,0,0.75);
+  box-shadow: 3px 7px 23px -8px rgba(0,0,0,0.75);
+}
+
+.event-card img{
+  margin-top: 3%;
+  height: 8rem;
+}
+
+.event-card button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.5rem;
+  border-radius: 1%;
+  width: 80%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.orden {
+  margin-top: 5%;
+  padding: 2%;
+  background-color: #2962FF;
+  color: white;
+}
+
+
+#ordenes li{
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.5rem;
+  border-radius: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.orden button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.5rem;
+  border-radius: 1%;
+  width: 30%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.orden p{
+  text-align: left;
+}
+
+.orden h1{
+  text-align: left;
+}
